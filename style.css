@@ -1,1 +1,107 @@
-/* Add styles here */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "inter", sans-serif;}
+
+body{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+}
+
+div{
+
+    color: white;
+    width: 384px;
+    color: var(--dark-grey);
+}
+
+ul,li{
+    list-style: none;
+}
+
+body{
+    background-color: var(--black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+
+div{
+    background-color: var(--dark-grey);
+    color:var(--white); 
+    width: 384px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 40px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 4px;
+}
+
+
+
+
+ul,li{list-style: none;}
+
+img{
+    height: 88px;
+    width: 88px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+   color: #4B0082;
+}
+
+
+:root{
+    --black:#141414;
+    --white:white;
+    --dark-grey:#1f1f1f;
+    --aquamarine: #4B0082;
+    --grey: #333;
+    
+}
+
+strong{
+color: var(--aquamarine);
+font-size: 14px;
+
+}
+
+p{
+    margin-block: 24px;
+    font-size: 14px;
+}
+
+a{
+    display:block;
+    background-color:var(--grey);
+    margin-bottom: 16px;
+    color:var(--white);
+    text-decoration: none;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 8px;
+
+
+}
+
+a:hover{
+    background-color:var(--aquamarine);
+    transition: 0.8s;
+
+}
+
+
